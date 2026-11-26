@@ -1,14 +1,23 @@
-server.port: 7003
+server:
+  port: 7003
+
 logging:
   level:
     root: INFO
-    se.magnus: DEBUG
+    se.magnus.microservices: DEBUG
+
 spring:
   web:
     error:
       include-message: always
-
 spring.data.mongodb.auto-index-creation: true
+spring.mongodb:
+  host: localhost
+  port: 27017
+  database: recommendation-db
+
+logging.level.org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+
 ---
 spring:
   config:
@@ -17,3 +26,5 @@ spring:
 
 server:
   port: 8080
+
+spring.mongodb.host: mongodb
