@@ -8,6 +8,8 @@ spring:
     error:
       include-message: always
 
+spring.jpa.hibernate.ddl-auto: update
+
 ---
 spring:
   config:
