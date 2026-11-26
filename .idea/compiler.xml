@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21">
+      <module name="product-composite-service" target="21" />
+      <module name="product-composite-service.main" target="21" />
+      <module name="product-composite-service.test" target="21" />
+      <module name="product-service" target="21" />
+      <module name="product-service.main" target="21" />
+      <module name="product-service.test" target="21" />
+      <module name="recommendation-service" target="21" />
+      <module name="recommendation-service.main" target="21" />
+      <module name="recommendation-service.test" target="21" />
+      <module name="review-service" target="21" />
+      <module name="review-service.main" target="21" />
+      <module name="review-service.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="msa.api" options="-parameters" />
+      <module name="msa.api.main" options="-parameters" />
+      <module name="msa.api.test" options="-parameters" />
+      <module name="msa.microservices.product-composite-service" options="-parameters" />
+      <module name="msa.microservices.product-composite-service.main" options="-parameters" />
+      <module name="msa.microservices.product-composite-service.test" options="-parameters" />
+      <module name="msa.microservices.product-service" options="-parameters" />
+      <module name="msa.microservices.product-service.main" options="-parameters" />
+      <module name="msa.microservices.product-service.test" options="-parameters" />
+      <module name="msa.microservices.recommendation-service" options="-parameters" />
+      <module name="msa.microservices.recommendation-service.main" options="-parameters" />
+      <module name="msa.microservices.recommendation-service.test" options="-parameters" />
+      <module name="msa.microservices.review-service" options="-parameters" />
+      <module name="msa.microservices.review-service.main" options="-parameters" />
+      <module name="msa.microservices.review-service.test" options="-parameters" />
+      <module name="msa.util" options="-parameters" />
+      <module name="msa.util.main" options="-parameters" />
+      <module name="msa.util.test" options="-parameters" />
       <module name="product-composite-service" options="-parameters" />
       <module name="product-composite-service.main" options="-parameters" />
       <module name="product-composite-service.test" options="-parameters" />
